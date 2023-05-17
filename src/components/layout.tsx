@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { cls } from "../lib/utils";
+import { cls } from "../lib/client/utils";
 
 interface LayoutProps {
   title?: string;
